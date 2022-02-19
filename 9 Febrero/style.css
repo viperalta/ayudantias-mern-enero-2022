@@ -1,0 +1,16 @@
+.pieza{
+    width: 520px;
+    height: 350px;
+    background-image: url("src/dia.jpg");
+    position:relative;
+}
+
+.ampolleta{
+    position:absolute;
+    width: 50px;
+    height: 63px;
+    background-image: url("src/ampolletaOff.png");
+    top:93px;
+    left:122px;
+
+}

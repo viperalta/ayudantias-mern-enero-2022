@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form name="formulario">
+        <h1 class="titulo">Registration Form</h1>
+
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="campo">
+            <label for="edad">Edad</label>
+            <input type="number" id="numero" name="numero" min="0" max="10">
+        </div>
+        
+        <div class="campo">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" minlength="6" maxlength="15">
+            <p>hola como estas kjjfnwkjnfwfnewkjfnkwjnfkjnfkjewnkffkfk</p>
+    
+        </div>
+
+        <div>
+            <h3>Genero</h3>
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="masculino" value="masculino">
+
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="femenino" value="femenino">
+
+        <label for="nobinario">No binario</label>
+        <input type="radio" id="nobinario" name="nobinario" value="nobinario">
+
+        </div>
+
+        <div class="campo">
+            <label for="descripcion" >Descripcion de ti mismo</label>
+        </div>
+        
+        <div>
+            <textarea name="descripcion" id="descripcion"></textarea>
+        </div>
+       
+        <div>
+            <h3>Hobbies</h3>
+        <select name="hobbies" id="hobbies">
+            <option value="javascript">Javascript</option>
+            <option value="basketball">Basketball</option>
+            <option value="anime">Anime</option>
+            <option value="trotar">Trotar</option>
+        </select>
+
+        </div>
+
+        <div class="campo">
+            <input type="checkbox" id="cursando"name="cursando">
+            <label>Cursando actualmente el bootcamo de CD</label>    
+        </div>
+
+        <div class="campo">
+            <label>Cumpleaños</label> 
+            <input type="date" id="cursando" name="cursando">
+               
+        </div>
+         
+        <div class="campo">
+            <input type="submit" value="Enviar Formulario">
+        </div>
+        
+
+
+    </form>
+
+    <ul>
+        <li>Estudiar Html</li>
+        <li>Estudiar Css</li>
+        <li>Estudiar Javascript</li>
+    </ul>
+
+    <ol>
+        <li>Estudiar Html</li>
+        <li>Estudiar Css</li>
+        <li>Estudiar Javascript</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+
+            </tbody>
+        
+      </table>
+    
+</body>
+</html>

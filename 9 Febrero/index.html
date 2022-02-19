@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="pieza.js" defer></script>
+</head>
+<body>
+    <select onchange="escogerTiempo(this)">
+        <option value="dia">ES DE DIA</option>
+        <option value="noche">ES DE NOCHE</option>
+    </select>
+    <button onclick="apretarInterruptor(this)">APRETAR INTERRUPTOR</button>
+    <div class="pieza">
+        <div class="ampolleta"></div>
+    </div>
+    <input type="time" onchange="cambiarHorario(this)">
+
+    
+</body>
+</html>
