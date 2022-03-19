@@ -1,0 +1,25 @@
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap:20px;
+}
+
+.App{
+  text-align: center;
+}
+
+.card{
+  padding: 20px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  box-shadow: 5px 5px 15px 5px #000000;;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
